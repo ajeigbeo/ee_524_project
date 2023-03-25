@@ -1,0 +1,311 @@
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1i: 64kB
+l2s: 1MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.659358                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013116                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1i: 64kB
+l2s: 2MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.580602                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013116                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1i: 64kB
+l2s: 4MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.543582                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013116                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+l1i: 64kB
+l2s: 1MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.749346                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.011544                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+l1i: 64kB
+l2s: 2MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.659649                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.011544                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+l1i: 64kB
+l2s: 4MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.617593                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.011544                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1i: 128kB
+l2s: 1MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.659356                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013116                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1i: 128kB
+l2s: 2MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.580591                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013116                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1i: 128kB
+l2s: 4MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.543571                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013116                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+l1i: 128kB
+l2s: 1MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.749345                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.011544                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+l1i: 128kB
+l2s: 2MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.659638                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.011544                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+l1i: 128kB
+l2s: 4MB
+l1a: 2
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.617580                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.011544                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+l1i: 64kB
+l2s: 4MB
+l1a: 4
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.503420                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.014162                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 512kB
+l1i: 64kB
+l2s: 4MB
+l1a: 4
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.722655                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.009865                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1u: 64kB
+l2s: 1MB
+l1a: 1
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.651825                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013766                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1u: 64kB
+l2s: 2MB
+l1a: 1
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.559966                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013766                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1u: 64kB
+l2s: 4MB
+l1a: 1
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.517880                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013766                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1u: 64kB
+l2s: 1MB
+l1a: 1
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.628266                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013766                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1u: 64kB
+l2s: 2MB
+l1a: 1
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.553204                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013766                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+l1u: 64kB
+l2s: 4MB
+l1a: 1
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.517936                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.013766                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+l1i: 256kB
+l2s: 4MB
+l1a: 4
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.077606                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.007938                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+l1i: 512kB
+l2s: 4MB
+l1a: 4
+l1a: 4
+
+system.l2.overall_miss_rate::total           0.077606                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.007938                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 512kB
+l1i: 256kB
+l2s: 4MB
+l1a: 4
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.722419                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.009865                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 512kB
+l1i: 256kB
+l2s: 2MB
+l1a: 4
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.774987                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.009865                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 512kB
+l1i: 512kB
+l2s: 4MB
+l1a: 4
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.722419                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.009865                       # miss rate for overall accesses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 512kB
+l1i: 512kB
+l2s: 2MB
+l1a: 4
+l1a: 1
+
+system.l2.overall_miss_rate::total           0.774987                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000001                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.009865                       # miss rate for overall accesses

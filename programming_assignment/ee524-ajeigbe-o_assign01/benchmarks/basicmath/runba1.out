@@ -1,0 +1,152 @@
+=== basicmath test run on A7 on core 0 ===
+# started on Fri Sep 30 21:23:10 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./basicmath_large':
+
+        1886405293      armv7_cortex_a7/inst_retired/u                                     (79.92%)
+         980741556      cycles:u                                                      (0.07%)
+          42274807      armv7_cortex_a7/br_mis_pred/u                                     (79.97%)
+            131129      armv7_cortex_a7/l1d_cache_refill/u                                     (79.93%)
+           2032459      armv7_cortex_a7/l1i_cache_refill/u                                     (79.92%)
+             20253      armv7_cortex_a7/l2d_cache_refill/u                                     (79.97%)
+
+       2.121862070 seconds time elapsed
+
+       1.882115000 seconds user
+       0.181648000 seconds sys
+
+
+=== basicmath test run on A7 on core 0,1 ===
+# started on Fri Sep 30 21:23:26 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./basicmath_large':
+
+        1885891132      armv7_cortex_a7/inst_retired/u                                     (79.89%)
+        1031547697      cycles:u                                                      (0.07%)
+          42252698      armv7_cortex_a7/br_mis_pred/u                                     (79.87%)
+            139786      armv7_cortex_a7/l1d_cache_refill/u                                     (79.89%)
+           2018431      armv7_cortex_a7/l1i_cache_refill/u                                     (80.06%)
+             19266      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+       2.135730323 seconds time elapsed
+
+       1.872242000 seconds user
+       0.205265000 seconds sys
+
+
+=== basicmath test run on A7 on core 0,1,2 ===
+# started on Fri Sep 30 21:23:44 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./basicmath_large':
+
+        1884482693      armv7_cortex_a7/inst_retired/u                                     (79.92%)
+        1023112045      cycles:u                                                      (0.07%)
+          42237510      armv7_cortex_a7/br_mis_pred/u                                     (79.91%)
+            136904      armv7_cortex_a7/l1d_cache_refill/u                                     (79.91%)
+           2016722      armv7_cortex_a7/l1i_cache_refill/u                                     (79.93%)
+             18260      armv7_cortex_a7/l2d_cache_refill/u                                     (80.04%)
+
+       2.159834202 seconds time elapsed
+
+       1.904536000 seconds user
+       0.198343000 seconds sys
+
+
+=== basicmath test run on A7 on core 0,1,2,3 ===
+# started on Fri Sep 30 21:24:01 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./basicmath_large':
+
+        1887359229      armv7_cortex_a7/inst_retired/u                                     (79.88%)
+         959092855      cycles:u                                                      (0.08%)
+          42186342      armv7_cortex_a7/br_mis_pred/u                                     (79.87%)
+            161996      armv7_cortex_a7/l1d_cache_refill/u                                     (79.86%)
+           2011234      armv7_cortex_a7/l1i_cache_refill/u                                     (80.06%)
+             18252      armv7_cortex_a7/l2d_cache_refill/u                                     (80.02%)
+
+       2.055745450 seconds time elapsed
+
+       1.864846000 seconds user
+       0.144214000 seconds sys
+
+
+=== basicmath test run on A15 on core 4 ===
+# started on Fri Sep 30 21:24:17 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./basicmath_large':
+
+        1884218123      armv7_cortex_a15/inst_retired/u                                   
+        1589985491      cycles:u                                                    
+          17697508      armv7_cortex_a15/br_mis_pred/u                                   
+            240535      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2005683      armv7_cortex_a15/l1i_cache_refill/u                                   
+              3951      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.864772782 seconds time elapsed
+
+       0.792444000 seconds user
+       0.067693000 seconds sys
+
+
+=== basicmath test run on A15 on core 4,5 ===
+# started on Fri Sep 30 21:24:33 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./basicmath_large':
+
+        1884218429      armv7_cortex_a15/inst_retired/u                                   
+        1804530300      cycles:u                                                    
+          18091274      armv7_cortex_a15/br_mis_pred/u                                   
+            337308      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2186431      armv7_cortex_a15/l1i_cache_refill/u                                   
+              4879      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.024727581 seconds time elapsed
+
+       0.896137000 seconds user
+       0.118816000 seconds sys
+
+
+=== basicmath test run on A15 on core 4,5,6 ===
+# started on Fri Sep 30 21:24:48 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./basicmath_large':
+
+        1884218732      armv7_cortex_a15/inst_retired/u                                   
+        1716888619      cycles:u                                                    
+          18439299      armv7_cortex_a15/br_mis_pred/u                                   
+            180778      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2038915      armv7_cortex_a15/l1i_cache_refill/u                                   
+              4181      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.950977871 seconds time elapsed
+
+       0.844905000 seconds user
+       0.099261000 seconds sys
+
+
+=== basicmath test run on A15 on core 4,5,6,7 ===
+# started on Fri Sep 30 21:25:04 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./basicmath_large':
+
+        1884219081      armv7_cortex_a15/inst_retired/u                                   
+        1758179772      cycles:u                                                    
+          18853702      armv7_cortex_a15/br_mis_pred/u                                   
+            377772      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2038371      armv7_cortex_a15/l1i_cache_refill/u                                   
+              4357      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.980071206 seconds time elapsed
+
+       0.865069000 seconds user
+       0.107163000 seconds sys
+
+

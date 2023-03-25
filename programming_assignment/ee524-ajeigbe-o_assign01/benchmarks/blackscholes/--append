@@ -1,0 +1,14 @@
+# started on Wed Sep 21 00:20:58 2022
+
+
+ Performance counter stats for './blackscholes 1 in_64K.txt output.txt':
+
+        3544168043      cycles:u                                                    
+        2895517534      instructions:u            #    0.82  insn per cycle         
+
+       1.834118579 seconds time elapsed
+
+       1.767221000 seconds user
+       0.051430000 seconds sys
+
+

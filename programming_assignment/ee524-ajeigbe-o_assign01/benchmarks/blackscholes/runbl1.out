@@ -1,0 +1,456 @@
+=== blackscholes test run on A7 with 1 threads on core 0 ===
+# started on Fri Sep 30 20:37:26 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./blackscholes 1 in_64K.txt output.txt':
+
+        2894577168      armv7_cortex_a7/inst_retired/u                                     (79.94%)
+        2359739072      cycles:u                                                      (0.03%)
+          39656807      armv7_cortex_a7/br_mis_pred/u                                     (79.87%)
+          12441075      armv7_cortex_a7/l1d_cache_refill/u                                     (79.98%)
+           4789967      armv7_cortex_a7/l1i_cache_refill/u                                     (80.09%)
+           2885637      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+       5.035105528 seconds time elapsed
+
+       4.808238000 seconds user
+       0.074594000 seconds sys
+
+
+=== blackscholes test run on A7 with 2 threads on core 0 ===
+# started on Fri Sep 30 20:37:46 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./blackscholes 2 in_64K.txt output.txt':
+
+        2896227182      armv7_cortex_a7/inst_retired/u                                     (79.97%)
+        2305171127      cycles:u                                                      (0.03%)
+          39789901      armv7_cortex_a7/br_mis_pred/u                                     (79.93%)
+          10855646      armv7_cortex_a7/l1d_cache_refill/u                                     (79.93%)
+           4366498      armv7_cortex_a7/l1i_cache_refill/u                                     (79.94%)
+           2870605      armv7_cortex_a7/l2d_cache_refill/u                                     (80.09%)
+
+       4.778620315 seconds time elapsed
+
+       4.621607000 seconds user
+       0.043164000 seconds sys
+
+
+=== blackscholes test run on A7 with 4 threads on core 0 ===
+# started on Fri Sep 30 20:38:05 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./blackscholes 4 in_64K.txt output.txt':
+
+        2898217067      armv7_cortex_a7/inst_retired/u                                     (80.09%)
+        2220882042      cycles:u                                                      (0.03%)
+          39749557      armv7_cortex_a7/br_mis_pred/u                                     (80.12%)
+          12359501      armv7_cortex_a7/l1d_cache_refill/u                                     (79.83%)
+           4674105      armv7_cortex_a7/l1i_cache_refill/u                                     (79.91%)
+           2874790      armv7_cortex_a7/l2d_cache_refill/u                                     (79.91%)
+
+       4.861128216 seconds time elapsed
+
+       4.674306000 seconds user
+       0.065870000 seconds sys
+
+
+=== blackscholes test run on A7 with 1 threads on core 0,1 ===
+# started on Fri Sep 30 20:38:23 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./blackscholes 1 in_64K.txt output.txt':
+
+        2891077410      armv7_cortex_a7/inst_retired/u                                     (79.90%)
+        2297688934      cycles:u                                                      (0.03%)
+          39806238      armv7_cortex_a7/br_mis_pred/u                                     (79.98%)
+          11053918      armv7_cortex_a7/l1d_cache_refill/u                                     (80.03%)
+           4657388      armv7_cortex_a7/l1i_cache_refill/u                                     (80.01%)
+           2892991      armv7_cortex_a7/l2d_cache_refill/u                                     (79.95%)
+
+       4.806833685 seconds time elapsed
+
+       4.637282000 seconds user
+       0.066181000 seconds sys
+
+
+=== blackscholes test run on A7 with 2 threads on core 0,1 ===
+# started on Fri Sep 30 20:38:42 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./blackscholes 2 in_64K.txt output.txt':
+
+        2894339212      armv7_cortex_a7/inst_retired/u                                     (79.90%)
+        2282380710      cycles:u                                                      (0.03%)
+          39842808      armv7_cortex_a7/br_mis_pred/u                                     (79.97%)
+          12450241      armv7_cortex_a7/l1d_cache_refill/u                                     (79.96%)
+           4331769      armv7_cortex_a7/l1i_cache_refill/u                                     (80.04%)
+           2882890      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+       2.951135097 seconds time elapsed
+
+       4.618628000 seconds user
+       0.084790000 seconds sys
+
+
+=== blackscholes test run on A7 with 4 threads on core 0,1 ===
+# started on Fri Sep 30 20:39:00 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./blackscholes 4 in_64K.txt output.txt':
+
+        2897870521      armv7_cortex_a7/inst_retired/u                                     (80.00%)
+        2213015920      cycles:u                                                      (0.03%)
+          39918217      armv7_cortex_a7/br_mis_pred/u                                     (79.93%)
+          10585972      armv7_cortex_a7/l1d_cache_refill/u                                     (79.94%)
+           4672710      armv7_cortex_a7/l1i_cache_refill/u                                     (79.94%)
+           2736025      armv7_cortex_a7/l2d_cache_refill/u                                     (80.05%)
+
+       2.903432627 seconds time elapsed
+
+       4.578364000 seconds user
+       0.049471000 seconds sys
+
+
+=== blackscholes test run on A7 with 1 threads on core 0,1,2 ===
+# started on Fri Sep 30 20:39:17 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./blackscholes 1 in_64K.txt output.txt':
+
+        2897536833      armv7_cortex_a7/inst_retired/u                                     (79.88%)
+        2289443779      cycles:u                                                      (0.03%)
+          39774945      armv7_cortex_a7/br_mis_pred/u                                     (79.96%)
+          10386265      armv7_cortex_a7/l1d_cache_refill/u                                     (80.02%)
+           4331128      armv7_cortex_a7/l1i_cache_refill/u                                     (79.99%)
+           2883567      armv7_cortex_a7/l2d_cache_refill/u                                     (80.02%)
+
+       4.882720221 seconds time elapsed
+
+       4.697775000 seconds user
+       0.070050000 seconds sys
+
+
+=== blackscholes test run on A7 with 2 threads on core 0,1,2 ===
+# started on Fri Sep 30 20:39:36 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./blackscholes 2 in_64K.txt output.txt':
+
+        2897630571      armv7_cortex_a7/inst_retired/u                                     (80.03%)
+        2233233257      cycles:u                                                      (0.03%)
+          39940566      armv7_cortex_a7/br_mis_pred/u                                     (79.96%)
+          11612226      armv7_cortex_a7/l1d_cache_refill/u                                     (79.95%)
+           4746365      armv7_cortex_a7/l1i_cache_refill/u                                     (79.94%)
+           2887655      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+       2.942210367 seconds time elapsed
+
+       4.590759000 seconds user
+       0.096422000 seconds sys
+
+
+=== blackscholes test run on A7 with 4 threads on core 0,1,2 ===
+# started on Fri Sep 30 20:39:53 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./blackscholes 4 in_64K.txt output.txt':
+
+        2894929936      armv7_cortex_a7/inst_retired/u                                     (80.11%)
+        2412594111      cycles:u                                                      (0.03%)
+          39908125      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          12052134      armv7_cortex_a7/l1d_cache_refill/u                                     (79.91%)
+           4345454      armv7_cortex_a7/l1i_cache_refill/u                                     (79.85%)
+           2706601      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+       2.547331232 seconds time elapsed
+
+       4.752579000 seconds user
+       0.093774000 seconds sys
+
+
+=== blackscholes test run on A7 with 1 threads on core 0,1,2,3 ===
+# started on Fri Sep 30 20:40:10 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./blackscholes 1 in_64K.txt output.txt':
+
+        2897630161      armv7_cortex_a7/inst_retired/u                                     (79.92%)
+        2298860729      cycles:u                                                      (0.03%)
+          39896063      armv7_cortex_a7/br_mis_pred/u                                     (79.93%)
+          12595417      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+           4659001      armv7_cortex_a7/l1i_cache_refill/u                                     (80.01%)
+           2887505      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+       4.870868397 seconds time elapsed
+
+       4.708435000 seconds user
+       0.050014000 seconds sys
+
+
+=== blackscholes test run on A7 with 2 threads on core 0,1,2,3 ===
+# started on Fri Sep 30 20:40:29 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./blackscholes 2 in_64K.txt output.txt':
+
+        2905646483      armv7_cortex_a7/inst_retired/u                                     (79.73%)
+        2036413291      cycles:u                                                      (0.04%)
+          39756067      armv7_cortex_a7/br_mis_pred/u                                     (80.01%)
+          11419206      armv7_cortex_a7/l1d_cache_refill/u                                     (80.03%)
+           4336160      armv7_cortex_a7/l1i_cache_refill/u                                     (80.03%)
+           2888157      armv7_cortex_a7/l2d_cache_refill/u                                     (80.02%)
+
+       2.919193318 seconds time elapsed
+
+       4.609832000 seconds user
+       0.082498000 seconds sys
+
+
+=== blackscholes test run on A7 with 4 threads on core 0,1,2,3 ===
+# started on Fri Sep 30 20:40:46 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./blackscholes 4 in_64K.txt output.txt':
+
+        2897282808      armv7_cortex_a7/inst_retired/u                                     (80.01%)
+        2665086141      cycles:u                                                      (0.03%)
+          39780286      armv7_cortex_a7/br_mis_pred/u                                     (80.14%)
+          11019107      armv7_cortex_a7/l1d_cache_refill/u                                     (79.90%)
+           4727659      armv7_cortex_a7/l1i_cache_refill/u                                     (79.92%)
+           2890076      armv7_cortex_a7/l2d_cache_refill/u                                     (79.92%)
+
+       2.218679866 seconds time elapsed
+
+       5.218147000 seconds user
+       0.042265000 seconds sys
+
+
+=== blackscholes test run on A15 with 1 threads on core 4 ===
+# started on Fri Sep 30 20:41:03 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./blackscholes 1 in_64K.txt output.txt':
+
+        2895980742      armv7_cortex_a15/inst_retired/u                                   
+        3625409957      cycles:u                                                    
+          10856506      armv7_cortex_a15/br_mis_pred/u                                   
+           8879585      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1964615      armv7_cortex_a15/l1i_cache_refill/u                                   
+            632541      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.869916801 seconds time elapsed
+
+       1.824357000 seconds user
+       0.027670000 seconds sys
+
+
+=== blackscholes test run on A15 with 2 threads on core 4 ===
+# started on Fri Sep 30 20:41:20 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./blackscholes 2 in_64K.txt output.txt':
+
+        2895982995      armv7_cortex_a15/inst_retired/u                                   
+        3521903665      cycles:u                                                    
+          10854451      armv7_cortex_a15/br_mis_pred/u                                   
+           9118823      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1916739      armv7_cortex_a15/l1i_cache_refill/u                                   
+            520207      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.799856609 seconds time elapsed
+
+       1.760890000 seconds user
+       0.027691000 seconds sys
+
+
+=== blackscholes test run on A15 with 4 threads on core 4 ===
+# started on Fri Sep 30 20:41:36 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./blackscholes 4 in_64K.txt output.txt':
+
+        2895987406      armv7_cortex_a15/inst_retired/u                                   
+        3571486274      cycles:u                                                    
+          11064811      armv7_cortex_a15/br_mis_pred/u                                   
+          10071348      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2407974      armv7_cortex_a15/l1i_cache_refill/u                                   
+            486167      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.836967687 seconds time elapsed
+
+       1.777420000 seconds user
+       0.039448000 seconds sys
+
+
+=== blackscholes test run on A15 with 1 threads on core 4,5 ===
+# started on Fri Sep 30 20:41:52 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./blackscholes 1 in_64K.txt output.txt':
+
+        2895981048      armv7_cortex_a15/inst_retired/u                                   
+        3640130235      cycles:u                                                    
+          10871262      armv7_cortex_a15/br_mis_pred/u                                   
+           8793943      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1902089      armv7_cortex_a15/l1i_cache_refill/u                                   
+            631549      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.878964392 seconds time elapsed
+
+       1.832980000 seconds user
+       0.023758000 seconds sys
+
+
+=== blackscholes test run on A15 with 2 threads on core 4,5 ===
+# started on Fri Sep 30 20:42:08 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./blackscholes 2 in_64K.txt output.txt':
+
+        2895983240      armv7_cortex_a15/inst_retired/u                                   
+        3611114064      cycles:u                                                    
+          10949581      armv7_cortex_a15/br_mis_pred/u                                   
+          10980188      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2368386      armv7_cortex_a15/l1i_cache_refill/u                                   
+            590898      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.146762622 seconds time elapsed
+
+       1.796754000 seconds user
+       0.039552000 seconds sys
+
+
+=== blackscholes test run on A15 with 4 threads on core 4,5 ===
+# started on Fri Sep 30 20:42:23 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./blackscholes 4 in_64K.txt output.txt':
+
+        2895987773      armv7_cortex_a15/inst_retired/u                                   
+        3570676664      cycles:u                                                    
+          10918849      armv7_cortex_a15/br_mis_pred/u                                   
+          10472267      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2084269      armv7_cortex_a15/l1i_cache_refill/u                                   
+            397678      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.126836973 seconds time elapsed
+
+       1.773299000 seconds user
+       0.035732000 seconds sys
+
+
+=== blackscholes test run on A15 with 1 threads on core 4,5,6 ===
+# started on Fri Sep 30 20:42:38 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./blackscholes 1 in_64K.txt output.txt':
+
+        2895981351      armv7_cortex_a15/inst_retired/u                                   
+        3648483652      cycles:u                                                    
+          10837479      armv7_cortex_a15/br_mis_pred/u                                   
+           9628468      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1893182      armv7_cortex_a15/l1i_cache_refill/u                                   
+            505034      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.889677203 seconds time elapsed
+
+       1.838309000 seconds user
+       0.031674000 seconds sys
+
+
+=== blackscholes test run on A15 with 2 threads on core 4,5,6 ===
+# started on Fri Sep 30 20:42:54 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./blackscholes 2 in_64K.txt output.txt':
+
+        2895983543      armv7_cortex_a15/inst_retired/u                                   
+        3625247586      cycles:u                                                    
+          10857850      armv7_cortex_a15/br_mis_pred/u                                   
+          10026398      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1932890      armv7_cortex_a15/l1i_cache_refill/u                                   
+            475531      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.165496923 seconds time elapsed
+
+       1.797209000 seconds user
+       0.055270000 seconds sys
+
+
+=== blackscholes test run on A15 with 4 threads on core 4,5,6 ===
+# started on Fri Sep 30 20:43:09 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./blackscholes 4 in_64K.txt output.txt':
+
+        2895988137      armv7_cortex_a15/inst_retired/u                                   
+        3575588967      cycles:u                                                    
+          10849974      armv7_cortex_a15/br_mis_pred/u                                   
+           9984281      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1927594      armv7_cortex_a15/l1i_cache_refill/u                                   
+            335283      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.974984948 seconds time elapsed
+
+       1.782369000 seconds user
+       0.043551000 seconds sys
+
+
+=== blackscholes test run on A15 with 1 threads on core 4,5,6,7 ===
+# started on Fri Sep 30 20:43:25 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./blackscholes 1 in_64K.txt output.txt':
+
+        2895981700      armv7_cortex_a15/inst_retired/u                                   
+        3619235028      cycles:u                                                    
+          10872223      armv7_cortex_a15/br_mis_pred/u                                   
+           9354680      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2413448      armv7_cortex_a15/l1i_cache_refill/u                                   
+            664584      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.857924374 seconds time elapsed
+
+       1.804271000 seconds user
+       0.035724000 seconds sys
+
+
+=== blackscholes test run on A15 with 2 threads on core 4,5,6,7 ===
+# started on Fri Sep 30 20:43:41 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./blackscholes 2 in_64K.txt output.txt':
+
+        2895983953      armv7_cortex_a15/inst_retired/u                                   
+        3553563519      cycles:u                                                    
+          10786666      armv7_cortex_a15/br_mis_pred/u                                   
+           9036596      armv7_cortex_a15/l1d_cache_refill/u                                   
+           1971558      armv7_cortex_a15/l1i_cache_refill/u                                   
+            529916      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       1.130772995 seconds time elapsed
+
+       1.770408000 seconds user
+       0.035712000 seconds sys
+
+
+=== blackscholes test run on A15 with 4 threads on core 4,5,6,7 ===
+# started on Fri Sep 30 20:43:56 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./blackscholes 4 in_64K.txt output.txt':
+
+        2895988364      armv7_cortex_a15/inst_retired/u                                   
+        3534613120      cycles:u                                                    
+          10867094      armv7_cortex_a15/br_mis_pred/u                                   
+           9698946      armv7_cortex_a15/l1d_cache_refill/u                                   
+           2071304      armv7_cortex_a15/l1i_cache_refill/u                                   
+            427802      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.764720869 seconds time elapsed
+
+       1.750764000 seconds user
+       0.035629000 seconds sys
+
+

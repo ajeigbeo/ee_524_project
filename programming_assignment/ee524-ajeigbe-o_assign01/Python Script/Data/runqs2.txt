@@ -1,0 +1,152 @@
+=== Qsort test run on A7 on core 0 ===
+# started on Fri Sep 30 21:19:18 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./qsort_large input_large.dat':
+
+         301391296      armv7_cortex_a7/inst_retired/u                                     (79.53%)
+         150775938      cycles:u                                                      (0.48%)
+           4386411      armv7_cortex_a7/br_mis_pred/u                                     (79.51%)
+            460941      armv7_cortex_a7/l1d_cache_refill/u                                     (79.56%)
+             78880      armv7_cortex_a7/l1i_cache_refill/u                                     (79.51%)
+            169974      armv7_cortex_a7/l2d_cache_refill/u                                     (79.96%)
+
+       0.320828879 seconds time elapsed
+
+       0.295671000 seconds user
+       0.019308000 seconds sys
+
+
+=== Qsort test run on A7 on core 0,1 ===
+# started on Fri Sep 30 21:19:32 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./qsort_large input_large.dat':
+
+         301034791      armv7_cortex_a7/inst_retired/u                                     (79.42%)
+         149541006      cycles:u                                                      (0.49%)
+           4381446      armv7_cortex_a7/br_mis_pred/u                                     (79.44%)
+            461788      armv7_cortex_a7/l1d_cache_refill/u                                     (79.41%)
+             60472      armv7_cortex_a7/l1i_cache_refill/u                                     (79.48%)
+            166119      armv7_cortex_a7/l2d_cache_refill/u                                     (80.28%)
+
+       0.319782921 seconds time elapsed
+
+       0.286697000 seconds user
+       0.027596000 seconds sys
+
+
+=== Qsort test run on A7 on core 0,1,2 ===
+# started on Fri Sep 30 21:19:46 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./qsort_large input_large.dat':
+
+         301320808      armv7_cortex_a7/inst_retired/u                                     (79.42%)
+         149853446      cycles:u                                                      (0.50%)
+           4384586      armv7_cortex_a7/br_mis_pred/u                                     (79.40%)
+            455261      armv7_cortex_a7/l1d_cache_refill/u                                     (79.36%)
+             59953      armv7_cortex_a7/l1i_cache_refill/u                                     (79.61%)
+            165851      armv7_cortex_a7/l2d_cache_refill/u                                     (80.21%)
+
+       0.319123255 seconds time elapsed
+
+       0.278281000 seconds user
+       0.035822000 seconds sys
+
+
+=== Qsort test run on A7 on core 0,1,2,3 ===
+# started on Fri Sep 30 21:20:01 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./qsort_large input_large.dat':
+
+         301841803      armv7_cortex_a7/inst_retired/u                                     (79.22%)
+         147551491      cycles:u                                                      (0.59%)
+           4401728      armv7_cortex_a7/br_mis_pred/u                                     (79.21%)
+            480868      armv7_cortex_a7/l1d_cache_refill/u                                     (79.25%)
+             61073      armv7_cortex_a7/l1i_cache_refill/u                                     (79.68%)
+            160221      armv7_cortex_a7/l2d_cache_refill/u                                     (80.28%)
+
+       0.337939922 seconds time elapsed
+
+       0.307422000 seconds user
+       0.023552000 seconds sys
+
+
+=== Qsort test run on A15 on core 4 ===
+# started on Fri Sep 30 21:20:16 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./qsort_large input_large.dat':
+
+         302512312      armv7_cortex_a15/inst_retired/u                                   
+         273216662      cycles:u                                                    
+           1253219      armv7_cortex_a15/br_mis_pred/u                                   
+            332612      armv7_cortex_a15/l1d_cache_refill/u                                   
+             36690      armv7_cortex_a15/l1i_cache_refill/u                                   
+             77816      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.155222002 seconds time elapsed
+
+       0.146560000 seconds user
+       0.007935000 seconds sys
+
+
+=== Qsort test run on A15 on core 4,5 ===
+# started on Fri Sep 30 21:20:29 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./qsort_large input_large.dat':
+
+         302512618      armv7_cortex_a15/inst_retired/u                                   
+         262515403      cycles:u                                                    
+           1249992      armv7_cortex_a15/br_mis_pred/u                                   
+            341112      armv7_cortex_a15/l1d_cache_refill/u                                   
+             36826      armv7_cortex_a15/l1i_cache_refill/u                                   
+             78107      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.147736045 seconds time elapsed
+
+       0.134863000 seconds user
+       0.012269000 seconds sys
+
+
+=== Qsort test run on A15 on core 4,5,6 ===
+# started on Fri Sep 30 21:20:44 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./qsort_large input_large.dat':
+
+         302512921      armv7_cortex_a15/inst_retired/u                                   
+         262374697      cycles:u                                                    
+           1248609      armv7_cortex_a15/br_mis_pred/u                                   
+            353980      armv7_cortex_a15/l1d_cache_refill/u                                   
+             37612      armv7_cortex_a15/l1i_cache_refill/u                                   
+             75071      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.147556586 seconds time elapsed
+
+       0.127151000 seconds user
+       0.019877000 seconds sys
+
+
+=== Qsort test run on A15 on core 4,5,6,7 ===
+# started on Fri Sep 30 21:20:58 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./qsort_large input_large.dat':
+
+         302513270      armv7_cortex_a15/inst_retired/u                                   
+         295169397      cycles:u                                                    
+           1250003      armv7_cortex_a15/br_mis_pred/u                                   
+            356687      armv7_cortex_a15/l1d_cache_refill/u                                   
+             37213      armv7_cortex_a15/l1i_cache_refill/u                                   
+             74819      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       0.169628296 seconds time elapsed
+
+       0.144610000 seconds user
+       0.024100000 seconds sys
+
+

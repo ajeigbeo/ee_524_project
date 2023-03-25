@@ -1,0 +1,736 @@
+401.bzip2 benchmarks
+parameters----------------
+l1d: 32kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                 645425                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1002                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2751083                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 32kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                 642249                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            994                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2694004                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 32kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                 640039                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2653053                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 32kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                 639954                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2551540                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                 645325                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            988                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2333259                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                 642129                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2282183                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                 639956                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2255590                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 64kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                 639854                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        2166883                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                 645288                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1938952                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                 642062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1899311                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                 639864                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1882269                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 128kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                 639721                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1804794                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                 645827                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1499335                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                 641911                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1495729                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                 639553                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1497074                       # number of demand (read+write) misses
+
+401.bzip2 benchmarks
+parameters----------------
+l1d: 256kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                 639256                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            987                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        1425894                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 32kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                6303526                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            682                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       14698959                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 32kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                6255287                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            680                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       14627141                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 32kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                6252702                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            674                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       14659513                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 32kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                6354835                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            674                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       14767658                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 64kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                6303283                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       12503105                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 64kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                6255139                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            674                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       12431709                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 64kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                6252478                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       12358624                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 64kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                6354581                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total       12216185                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 128kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                6309463                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        9624836                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 128kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                6259279                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        9220764                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 128kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                6254979                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8987995                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 128kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                6351611                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8842288                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 256kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                6317386                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7949032                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 256kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                6285602                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7907624                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 256kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                6279569                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7867150                       # number of demand (read+write) misses
+
+429.mcf benchmarks
+parameters----------------
+l1d: 256kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                6358230                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            673                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7821524                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 32kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                   6083                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1545                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         480898                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 32kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1507                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         484747                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 32kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1502                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         485972                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 32kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1494                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         487320                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 64kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1416                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         362980                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 64kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1406                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         367448                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 64kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1399                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         373579                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 64kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1385                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         379826                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 128kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1375                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         136092                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 128kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total         105422                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 128kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total          84072                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 128kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total          94805                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 256kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total           4525                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 256kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total           4346                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 256kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total           4324                       # number of demand (read+write) misses
+
+456.hmmer benchmarks
+parameters----------------
+l1d: 256kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                   6062                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1371                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total           4301                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 32kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                8376802                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total         989847                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8746760                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 32kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                8376216                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total         653758                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8601013                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 32kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                8375985                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total         390878                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8520253                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 32kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                8375638                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total         276484                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8502790                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 64kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                8376182                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total          90731                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8497795                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 64kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                8375604                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           3631                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8433543                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 64kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                8375427                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           2631                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8418680                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 64kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                8375064                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1791                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8413307                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 128kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                8375951                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1886                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8402279                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 128kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                8375451                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8398519                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 128kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                8375338                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8394021                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 128kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                8375050                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8393033                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 256kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                8375846                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8385884                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 256kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                8375451                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8384755                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 256kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                8375344                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8384214                       # number of demand (read+write) misses
+
+458.sjeng benchmarks
+parameters----------------
+l1d: 256kB
+la: 512
+
+match count
+3
+system.l2.demand_misses::total                8375016                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1599                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        8383766                       # number of demand (read+write) misses
+
+470.lbm benchmarks
+parameters----------------
+l1d: 32kB
+la: 4
+
+match count
+3
+system.l2.demand_misses::total                7147869                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            548                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7163883                       # number of demand (read+write) misses
+
+470.lbm benchmarks
+parameters----------------
+l1d: 32kB
+la: 8
+
+match count
+3
+system.l2.demand_misses::total                7147868                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            544                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7163952                       # number of demand (read+write) misses
+
+470.lbm benchmarks
+parameters----------------
+l1d: 32kB
+la: 16
+
+match count
+3
+system.l2.demand_misses::total                7147867                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total            537                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total        7163953                       # number of demand (read+write) misses

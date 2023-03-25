@@ -1,0 +1,16 @@
+ee524 Programming 01 Assignment Readme File
+
+Note: Each of the benchkmark folders has a bash script for single runs of the test.(flrun.sh, qsrun.sh,barun.sh and blrun.sh)
+
+1. Run the runbenchmarks.sh script file first.
+    The runbenchmarks.sh script is the file that automatically runs all already created benchmark scripts three times.
+    The outputs are stored in the various benchmark folders.
+    P.S: The clearcache.py is the bash script that was added to the benchmark bash script file to clear the cache between consecutive runs.
+
+2. SCP the files to the local PC.
+3. Run the python script named (ACA_PA1.ipynb). This script converts the bash outputs to a data frame which can be exported to CSV.
+4. Run the R script named PA1.Rmd. This script does some data wrangling as per the assignment's request. Such as:
+    a. Find the mean of the runs.
+    b. Computing the values of each run per 1000 instructions.
+    c. Plotting the bar plots
+    d. Lastly, generating the final data points table. 

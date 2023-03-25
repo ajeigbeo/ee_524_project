@@ -1,0 +1,456 @@
+=== fluidanimate test run on A7 with 1 threads on core 0 ===
+# started on Fri Sep 30 19:47:02 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36908275660      armv7_cortex_a7/inst_retired/u                                     (79.98%)
+       18675435172      cycles:u                                                      (0.01%)
+         450095160      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          90784026      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+           1454940      armv7_cortex_a7/l1i_cache_refill/u                                     (80.00%)
+          52112148      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+      47.961307769 seconds time elapsed
+
+      45.422425000 seconds user
+       1.542047000 seconds sys
+
+
+=== fluidanimate test run on A7 with 2 threads on core 0 ===
+# started on Fri Sep 30 19:48:04 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37862362301      armv7_cortex_a7/inst_retired/u                                     (80.00%)
+       26522614016      cycles:u                                                      (0.00%)
+         464915122      armv7_cortex_a7/br_mis_pred/u                                     (79.99%)
+          95974265      armv7_cortex_a7/l1d_cache_refill/u                                     (80.02%)
+           1762528      armv7_cortex_a7/l1i_cache_refill/u                                     (79.99%)
+          54799275      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+      55.517952340 seconds time elapsed
+
+      52.670236000 seconds user
+       1.359899000 seconds sys
+
+
+=== fluidanimate test run on A7 with 4 threads on core 0 ===
+# started on Fri Sep 30 19:49:13 2022
+
+
+ Performance counter stats for 'taskset -c 0 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38927331421      armv7_cortex_a7/inst_retired/u                                     (79.98%)
+       29914683648      cycles:u                                                      (0.00%)
+         473609045      armv7_cortex_a7/br_mis_pred/u                                     (79.99%)
+          96440288      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+           1439748      armv7_cortex_a7/l1i_cache_refill/u                                     (80.01%)
+          57088427      armv7_cortex_a7/l2d_cache_refill/u                                     (80.01%)
+
+      63.100865499 seconds time elapsed
+
+      59.689145000 seconds user
+       1.527583000 seconds sys
+
+
+=== fluidanimate test run on A7 with 1 threads on core 0,1 ===
+# started on Fri Sep 30 19:50:30 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36893418611      armv7_cortex_a7/inst_retired/u                                     (79.99%)
+       23797709704      cycles:u                                                      (0.00%)
+         450731277      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          90541048      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+            629250      armv7_cortex_a7/l1i_cache_refill/u                                     (80.01%)
+          52211849      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+      49.901748104 seconds time elapsed
+
+      47.638921000 seconds user
+       1.156832000 seconds sys
+
+
+=== fluidanimate test run on A7 with 2 threads on core 0,1 ===
+# started on Fri Sep 30 19:51:35 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37805623341      armv7_cortex_a7/inst_retired/u                                     (80.02%)
+       22704026176      cycles:u                                                      (0.00%)
+         464796463      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          94753823      armv7_cortex_a7/l1d_cache_refill/u                                     (79.99%)
+            813511      armv7_cortex_a7/l1i_cache_refill/u                                     (80.00%)
+          53929711      armv7_cortex_a7/l2d_cache_refill/u                                     (79.97%)
+
+      26.292450345 seconds time elapsed
+
+      46.613607000 seconds user
+       1.170959000 seconds sys
+
+
+=== fluidanimate test run on A7 with 4 threads on core 0,1 ===
+# started on Fri Sep 30 19:52:15 2022
+
+
+ Performance counter stats for 'taskset -c 0,1 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38888217303      armv7_cortex_a7/inst_retired/u                                     (80.01%)
+       25559125208      cycles:u                                                      (0.00%)
+         473269383      armv7_cortex_a7/br_mis_pred/u                                     (79.97%)
+          97565640      armv7_cortex_a7/l1d_cache_refill/u                                     (80.01%)
+           1148848      armv7_cortex_a7/l1i_cache_refill/u                                     (79.97%)
+          57310223      armv7_cortex_a7/l2d_cache_refill/u                                     (80.03%)
+
+      28.983553768 seconds time elapsed
+
+      52.245806000 seconds user
+       1.218218000 seconds sys
+
+
+=== fluidanimate test run on A7 with 1 threads on core 0,1,2 ===
+# started on Fri Sep 30 19:52:58 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36903797902      armv7_cortex_a7/inst_retired/u                                     (80.00%)
+       26348870170      cycles:u                                                      (0.00%)
+         450423556      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          91159423      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+            673208      armv7_cortex_a7/l1i_cache_refill/u                                     (80.00%)
+          52251274      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+      55.917482209 seconds time elapsed
+
+      53.155821000 seconds user
+       1.152687000 seconds sys
+
+
+=== fluidanimate test run on A7 with 2 threads on core 0,1,2 ===
+# started on Fri Sep 30 19:54:09 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37785268187      armv7_cortex_a7/inst_retired/u                                     (80.00%)
+       23055829720      cycles:u                                                      (0.00%)
+         464757977      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          96046726      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+            862754      armv7_cortex_a7/l1i_cache_refill/u                                     (79.99%)
+          54165695      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+      26.883850264 seconds time elapsed
+
+      47.698825000 seconds user
+       1.198704000 seconds sys
+
+
+=== fluidanimate test run on A7 with 4 threads on core 0,1,2 ===
+# started on Fri Sep 30 19:54:50 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38952922928      armv7_cortex_a7/inst_retired/u                                     (79.94%)
+       24101058049      cycles:u                                                      (0.00%)
+         472894864      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          97494018      armv7_cortex_a7/l1d_cache_refill/u                                     (80.05%)
+           1044012      armv7_cortex_a7/l1i_cache_refill/u                                     (80.02%)
+          57863062      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+      21.548209053 seconds time elapsed
+
+      50.060575000 seconds user
+       1.273372000 seconds sys
+
+
+=== fluidanimate test run on A7 with 1 threads on core 0,1,2,3 ===
+# started on Fri Sep 30 19:55:27 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36897705626      armv7_cortex_a7/inst_retired/u                                     (79.99%)
+       24051316645      cycles:u                                                      (0.00%)
+         450109470      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          92956318      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+            641476      armv7_cortex_a7/l1i_cache_refill/u                                     (80.01%)
+          52395152      armv7_cortex_a7/l2d_cache_refill/u                                     (80.00%)
+
+      51.140017535 seconds time elapsed
+
+      48.866897000 seconds user
+       1.120384000 seconds sys
+
+
+=== fluidanimate test run on A7 with 2 threads on core 0,1,2,3 ===
+# started on Fri Sep 30 19:56:32 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37801953040      armv7_cortex_a7/inst_retired/u                                     (80.01%)
+       22440089275      cycles:u                                                      (0.00%)
+         464464482      armv7_cortex_a7/br_mis_pred/u                                     (80.00%)
+          95840689      armv7_cortex_a7/l1d_cache_refill/u                                     (80.00%)
+            960270      armv7_cortex_a7/l1i_cache_refill/u                                     (80.00%)
+          53986803      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+      28.329409496 seconds time elapsed
+
+      49.682108000 seconds user
+       1.451777000 seconds sys
+
+
+=== fluidanimate test run on A7 with 4 threads on core 0,1,2,3 ===
+# started on Fri Sep 30 19:57:16 2022
+
+
+ Performance counter stats for 'taskset -c 0,1,2,3 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38704076672      armv7_cortex_a7/inst_retired/u                                     (80.00%)
+       24122840257      cycles:u                                                      (0.00%)
+         472836582      armv7_cortex_a7/br_mis_pred/u                                     (80.03%)
+          96851057      armv7_cortex_a7/l1d_cache_refill/u                                     (79.96%)
+           1021075      armv7_cortex_a7/l1i_cache_refill/u                                     (80.00%)
+          57774692      armv7_cortex_a7/l2d_cache_refill/u                                     (79.99%)
+
+      16.444854269 seconds time elapsed
+
+      51.265390000 seconds user
+       1.367408000 seconds sys
+
+
+=== fluidanimate test run on A15 with 1 threads on core 4 ===
+# started on Fri Sep 30 19:57:47 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36901083513      armv7_cortex_a15/inst_retired/u                                   
+       37817542969      cycles:u                                                    
+         308542504      armv7_cortex_a15/br_mis_pred/u                                   
+         117427983      armv7_cortex_a15/l1d_cache_refill/u                                   
+            149760      armv7_cortex_a15/l1i_cache_refill/u                                   
+          44861452      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      19.889109647 seconds time elapsed
+
+      18.960923000 seconds user
+       0.698768000 seconds sys
+
+
+=== fluidanimate test run on A15 with 2 threads on core 4 ===
+# started on Fri Sep 30 19:58:21 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37850756921      armv7_cortex_a15/inst_retired/u                                   
+       40891779119      cycles:u                                                    
+         343236720      armv7_cortex_a15/br_mis_pred/u                                   
+         122149510      armv7_cortex_a15/l1d_cache_refill/u                                   
+            280780      armv7_cortex_a15/l1i_cache_refill/u                                   
+          48693786      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      21.525487631 seconds time elapsed
+
+      20.437151000 seconds user
+       0.803637000 seconds sys
+
+
+=== fluidanimate test run on A15 with 4 threads on core 4 ===
+# started on Fri Sep 30 19:58:56 2022
+
+
+ Performance counter stats for 'taskset -c 4 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38938687564      armv7_cortex_a15/inst_retired/u                                   
+       53313434986      cycles:u                                                    
+         341317737      armv7_cortex_a15/br_mis_pred/u                                   
+         124118450      armv7_cortex_a15/l1d_cache_refill/u                                   
+            389549      armv7_cortex_a15/l1i_cache_refill/u                                   
+          52487360      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      27.883982065 seconds time elapsed
+
+      26.714686000 seconds user
+       0.817021000 seconds sys
+
+
+=== fluidanimate test run on A15 with 1 threads on core 4,5 ===
+# started on Fri Sep 30 19:59:39 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36901083819      armv7_cortex_a15/inst_retired/u                                   
+       36198140639      cycles:u                                                    
+         308231617      armv7_cortex_a15/br_mis_pred/u                                   
+         120292306      armv7_cortex_a15/l1d_cache_refill/u                                   
+            183605      armv7_cortex_a15/l1i_cache_refill/u                                   
+          45111788      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      19.014022122 seconds time elapsed
+
+      18.116637000 seconds user
+       0.690395000 seconds sys
+
+
+=== fluidanimate test run on A15 with 2 threads on core 4,5 ===
+# started on Fri Sep 30 20:00:12 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37814767523      armv7_cortex_a15/inst_retired/u                                   
+       40290235918      cycles:u                                                    
+         341762119      armv7_cortex_a15/br_mis_pred/u                                   
+         125221754      armv7_cortex_a15/l1d_cache_refill/u                                   
+            271954      armv7_cortex_a15/l1i_cache_refill/u                                   
+          47069151      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      11.909055774 seconds time elapsed
+
+      20.176367000 seconds user
+       0.969665000 seconds sys
+
+
+=== fluidanimate test run on A15 with 4 threads on core 4,5 ===
+# started on Fri Sep 30 20:00:37 2022
+
+
+ Performance counter stats for 'taskset -c 4,5 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38894889278      armv7_cortex_a15/inst_retired/u                                   
+       44617570479      cycles:u                                                    
+         342917383      armv7_cortex_a15/br_mis_pred/u                                   
+         128118366      armv7_cortex_a15/l1d_cache_refill/u                                   
+            326222      armv7_cortex_a15/l1i_cache_refill/u                                   
+          50883542      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      12.498399237 seconds time elapsed
+
+      22.338387000 seconds user
+       0.769993000 seconds sys
+
+
+=== fluidanimate test run on A15 with 1 threads on core 4,5,6 ===
+# started on Fri Sep 30 20:01:04 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36901084069      armv7_cortex_a15/inst_retired/u                                   
+       37228076158      cycles:u                                                    
+         308021324      armv7_cortex_a15/br_mis_pred/u                                   
+         123130366      armv7_cortex_a15/l1d_cache_refill/u                                   
+            140423      armv7_cortex_a15/l1i_cache_refill/u                                   
+          45219575      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      19.576689034 seconds time elapsed
+
+      18.629273000 seconds user
+       0.694966000 seconds sys
+
+
+=== fluidanimate test run on A15 with 2 threads on core 4,5,6 ===
+# started on Fri Sep 30 20:01:37 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37822584214      armv7_cortex_a15/inst_retired/u                                   
+       41071032506      cycles:u                                                    
+         340813326      armv7_cortex_a15/br_mis_pred/u                                   
+         125845999      armv7_cortex_a15/l1d_cache_refill/u                                   
+            246412      armv7_cortex_a15/l1i_cache_refill/u                                   
+          47286097      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      11.867919422 seconds time elapsed
+
+      20.568635000 seconds user
+       0.718995000 seconds sys
+
+
+=== fluidanimate test run on A15 with 4 threads on core 4,5,6 ===
+# started on Fri Sep 30 20:02:03 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38961318822      armv7_cortex_a15/inst_retired/u                                   
+       46409986370      cycles:u                                                    
+         342440537      armv7_cortex_a15/br_mis_pred/u                                   
+         126567335      armv7_cortex_a15/l1d_cache_refill/u                                   
+            377331      armv7_cortex_a15/l1i_cache_refill/u                                   
+          51402836      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      10.154029570 seconds time elapsed
+
+      23.243313000 seconds user
+       0.774749000 seconds sys
+
+
+=== fluidanimate test run on A15 with 1 threads on core 4,5,6,7 ===
+# started on Fri Sep 30 20:02:27 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./fluidanimate 1 20 in_300K.fluid out.fluid':
+
+       36901084403      armv7_cortex_a15/inst_retired/u                                   
+       37300158310      cycles:u                                                    
+         307808823      armv7_cortex_a15/br_mis_pred/u                                   
+         117376658      armv7_cortex_a15/l1d_cache_refill/u                                   
+            137993      armv7_cortex_a15/l1i_cache_refill/u                                   
+          44710703      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      19.595267220 seconds time elapsed
+
+      18.670683000 seconds user
+       0.702904000 seconds sys
+
+
+=== fluidanimate test run on A15 with 2 threads on core 4,5,6,7 ===
+# started on Fri Sep 30 20:03:01 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./fluidanimate 2 20 in_300K.fluid out.fluid':
+
+       37820933009      armv7_cortex_a15/inst_retired/u                                   
+       41650119797      cycles:u                                                    
+         339343109      armv7_cortex_a15/br_mis_pred/u                                   
+         125214434      armv7_cortex_a15/l1d_cache_refill/u                                   
+            214591      armv7_cortex_a15/l1i_cache_refill/u                                   
+          47456478      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+      12.200736955 seconds time elapsed
+
+      20.846342000 seconds user
+       0.859891000 seconds sys
+
+
+=== fluidanimate test run on A15 with 4 threads on core 4,5,6,7 ===
+# started on Fri Sep 30 20:03:28 2022
+
+
+ Performance counter stats for 'taskset -c 4,5,6,7 ./fluidanimate 4 20 in_300K.fluid out.fluid':
+
+       38767665314      armv7_cortex_a15/inst_retired/u                                   
+       46344146448      cycles:u                                                    
+         342379894      armv7_cortex_a15/br_mis_pred/u                                   
+         126923135      armv7_cortex_a15/l1d_cache_refill/u                                   
+            264532      armv7_cortex_a15/l1i_cache_refill/u                                   
+          51193706      armv7_cortex_a15/l2d_cache_refill/u                                   
+
+       7.827880272 seconds time elapsed
+
+      23.858345000 seconds user
+       0.781207000 seconds sys
+
+

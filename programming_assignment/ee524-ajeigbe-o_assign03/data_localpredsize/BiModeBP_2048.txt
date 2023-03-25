@@ -1,0 +1,40 @@
+401
+system.cpu.branchPred.BTBLookups             31480044                       # Number of BTB lookups (Count)
+system.cpu.branchPred.BTBHits                31479549                       # Number of BTB hits (Count)
+system.cpu.branchPred.BTBHitRatio            0.999984                       # BTB Hit Ratio (Ratio)
+system.cpu.exec_context.thread_0.numBranches     37843275                       # Number of branches fetched (Count)
+system.cpu.exec_context.thread_0.numPredictedBranches     32206544                       # Number of branches predicted as taken (Count)
+system.cpu.exec_context.thread_0.numBranchMispred      3840296                       # Number of branch mispredictions (Count)
+
+
+429
+system.cpu.branchPred.BTBLookups             48462216                       # Number of BTB lookups (Count)
+system.cpu.branchPred.BTBHits                48459210                       # Number of BTB hits (Count)
+system.cpu.branchPred.BTBHitRatio            0.999938                       # BTB Hit Ratio (Ratio)
+system.cpu.exec_context.thread_0.numBranches     97901023                       # Number of branches fetched (Count)
+system.cpu.exec_context.thread_0.numPredictedBranches     54502907                       # Number of branches predicted as taken (Count)
+system.cpu.exec_context.thread_0.numBranchMispred      5487599                       # Number of branch mispredictions (Count)
+
+458
+system.cpu.branchPred.BTBLookups             20659472                       # Number of BTB lookups (Count)
+system.cpu.branchPred.BTBHits                20652863                       # Number of BTB hits (Count)
+system.cpu.branchPred.BTBHitRatio            0.999680                       # BTB Hit Ratio (Ratio)
+system.cpu.exec_context.thread_0.numBranches     27593118                       # Number of branches fetched (Count)
+system.cpu.exec_context.thread_0.numPredictedBranches     21571772                       # Number of branches predicted as taken (Count)
+system.cpu.exec_context.thread_0.numBranchMispred      2445158                       # Number of branch mispredictions (Count)
+
+456
+system.cpu.branchPred.BTBLookups             50524620                       # Number of BTB lookups (Count)
+system.cpu.branchPred.BTBHits                49962940                       # Number of BTB hits (Count)
+system.cpu.branchPred.BTBHitRatio            0.988883                       # BTB Hit Ratio (Ratio)
+system.cpu.exec_context.thread_0.numBranches     69678397                       # Number of branches fetched (Count)
+system.cpu.exec_context.thread_0.numPredictedBranches     54211633                       # Number of branches predicted as taken (Count)
+system.cpu.exec_context.thread_0.numBranchMispred      5610668                       # Number of branch mispredictions (Count)
+
+470
+system.cpu.branchPred.BTBLookups              5483075                       # Number of BTB lookups (Count)
+system.cpu.branchPred.BTBHits                 5482853                       # Number of BTB hits (Count)
+system.cpu.branchPred.BTBHitRatio            0.999960                       # BTB Hit Ratio (Ratio)
+system.cpu.exec_context.thread_0.numBranches     18089614                       # Number of branches fetched (Count)
+system.cpu.exec_context.thread_0.numPredictedBranches      6668094                       # Number of branches predicted as taken (Count)
+system.cpu.exec_context.thread_0.numBranchMispred      2826413                       # Number of branch mispredictions (Count)

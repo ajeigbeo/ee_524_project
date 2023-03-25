@@ -1,0 +1,7 @@
+456
+system.cpu.branchPred.BTBLookups             50962017                       # Number of BTB lookups (Count)
+system.cpu.branchPred.BTBHits                50277741                       # Number of BTB hits (Count)
+system.cpu.branchPred.BTBHitRatio            0.986573                       # BTB Hit Ratio (Ratio)
+system.cpu.exec_context.thread_0.numBranches     69678397                       # Number of branches fetched (Count)
+system.cpu.exec_context.thread_0.numPredictedBranches     54539853                       # Number of branches predicted as taken (Count)
+system.cpu.exec_context.thread_0.numBranchMispred      7618733                       # Number of branch mispredictions (Count)

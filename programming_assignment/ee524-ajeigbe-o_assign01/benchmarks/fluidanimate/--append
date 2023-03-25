@@ -1,0 +1,20 @@
+# started on Mon Sep 19 21:08:00 2022
+
+
+ Performance counter stats for './fluidanimate 1 20 in_300K.fluid out.fluid':
+
+          18694.54 msec task-clock:u              #    0.996 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             77691      page-faults:u             #    0.004 M/sec                  
+       35976654680      cycles:u                  #    1.924 GHz                      (99.89%)
+       36935756095      instructions:u            #    1.03  insn per cycle           (99.89%)
+        4176884610      branches:u                #  223.428 M/sec                    (99.89%)
+         308609654      branch-misses:u           #    7.39% of all branches          (99.89%)
+
+      18.765040260 seconds time elapsed
+
+      18.051776000 seconds user
+       0.507775000 seconds sys
+
+
